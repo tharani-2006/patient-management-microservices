@@ -1,29 +1,8 @@
- Patient Management System
+Patient Management System
 Overview
 
-A production-ready microservices-based Patient Management System built using Java and Spring Boot.
+Patient Management System is a backend application being developed using Java and Spring Boot with a microservices-based architecture. The project is focused on managing patient information through RESTful APIs while exploring real-world backend development concepts such as layered architecture, database integration, validation, exception handling, inter-service communication, authentication, messaging systems, containerization, and cloud deployment.
 
-This project is designed to demonstrate modern backend development practices including REST APIs, microservices architecture, database integration, inter-service communication, authentication, containerization, messaging systems, and cloud deployment.
+The application currently provides functionality for creating, retrieving, and updating patient records using Spring Data JPA and an H2 in-memory database. Request validation and centralized exception handling have been implemented to ensure clean API responses and maintain data integrity. DTOs and mapper classes are used to separate internal entity models from API contracts, following common enterprise development practices.
 
-The application manages patient information while showcasing how multiple services can collaborate in a scalable and maintainable architecture.
-
-Tech Stack
-Backend
-Java
-Spring Boot
-Spring Data JPA
-Spring Security
-JWT Authentication
-Database
-PostgreSQL
-Communication
-REST APIs
-gRPC
-Apache Kafka
-DevOps & Deployment
-Docker
-AWS
-API Gateway
-Testing
-JUnit
-Integration Testing
+As the project progresses, additional services and infrastructure components will be introduced, including PostgreSQL, gRPC-based communication, Apache Kafka for event-driven messaging, API Gateway, JWT-based authentication, Docker containerization, integration testing, and AWS deployment. The goal of this project is not only to build a functional healthcare management system but also to gain practical experience with technologies and architectural patterns commonly used in modern production environments.
