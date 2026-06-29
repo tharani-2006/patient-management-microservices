@@ -8,3 +8,5 @@ The application currently provides functionality for creating, retrieving, and u
 As the project progresses, additional services and infrastructure components will be introduced, including PostgreSQL, gRPC-based communication, Apache Kafka for event-driven messaging, API Gateway, JWT-based authentication, Docker containerization, integration testing, and AWS deployment. The goal of this project is not only to build a functional healthcare management system but also to gain practical experience with technologies and architectural patterns commonly used in modern production environments.
  // under development
 
+
+//integrating gRPC Architecture
