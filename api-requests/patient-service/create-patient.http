@@ -3,10 +3,11 @@ POST http://localhost:4000/patients
 Content-Type: application/json
 
 {
-  "name" : "tharani",
-  "email" : "mano@gmail.com",
+  "name" : "tharaniGodMode",
+  "email" : "godmode@gmail.com",
   "address": "123 main street",
-  "dateOfBirth": "2006-05-12",
+  "dateOfBirth": "2006-12-12",
   "registeredDate": "2026-06-17"
 }
-###
+
+###0
